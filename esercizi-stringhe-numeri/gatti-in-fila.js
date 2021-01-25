@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var eachrow = 6;
+var totrows = Math.ceil(cats / eachrow);
+var catsmissing = totrows * eachrow - cats;
+
+console.log(`$(cats) gatti in fila per $(eachrow) in $(totrows) lasciando $(catsmissing) posti liberi`);
+
